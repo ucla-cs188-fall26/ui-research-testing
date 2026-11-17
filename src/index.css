@@ -11,4 +11,12 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: 'Sarala', sans-serif;
+}
+
+@font-face {
+  font-family: 'Sarala';
+  src: url('../FONT/Sara-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
 }
