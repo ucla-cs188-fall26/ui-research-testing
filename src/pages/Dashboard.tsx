@@ -85,20 +85,11 @@ export default function Dashboard() {
 
   return (
     <div className="dashboard-shell">
-      {/* <img
+      <img
         src={dashboardHero}
         alt="Dashboard hero"
         className="dashboard-hero"
-      /> */}
-      <div className = "dashboard-hero">
-        <button className="dashboard-filter-button">
-            Create
-        </button>
-        <button className="dashboard-filter-button">
-            Explore
-        </button>
-      
-      </div>
+      />
 
       <div className="dashboard-controls">
         <div
