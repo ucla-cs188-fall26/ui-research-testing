@@ -9,7 +9,7 @@ return(
     <div style={{display: 'flex', flexDirection: 'column', justifyContent:'center'}}>
         <img src={Image} alt="dashboard hero image"/>
         <div style={{padding: '51px'}}/>
-        <div style={{display: 'flex', flexDirection: 'row', width: '1120px', height: '54px', justifyContent:'center', gap: '27px'}}>
+        <div style={{display: 'flex', flexDirection: 'row', width: '1120px', height: '54px', justifyContent:'center'}}>
             <div className="searchInput">
                 Input Field Here
             </div>
