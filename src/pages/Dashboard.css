@@ -1,7 +1,21 @@
 .dashboard-hero{
-
+    background-image: url('../../assets/dashboardHero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    min-height: 400px;
     width: 100%;
-}
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: start;
+
+    padding-right: 3rem;
+    padding-top: 3rem;
+    gap: 1rem;
+}   
 /* .dashboard-controls{
 
 }
@@ -33,8 +47,9 @@
     width: 183px;
     padding: 11px 32px 11px 33px;
     flex-direction: row;
-    align-items: flex-start;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
     
     border-radius: 15px;
     background: #4EBFDF;
