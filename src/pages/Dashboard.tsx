@@ -8,9 +8,6 @@ import { WireframeGrid } from "../components/dashboard/WireframeGrid";
 import type { WireframeSummary } from "../components/dashboard/WireframeCard";
 import dashboardHero from "../../assets/dashboardHero.png";
 import filterIcon from "../../assets/filter.svg";
-import searchIcon from '../../assets/search.svg'
-import './Dashboard.css';
-
 
 type Tab = "explore" | "mine";
 
@@ -110,26 +107,20 @@ export default function Dashboard() {
           ))}
         </div>
 
-          <div style={{padding: '1rem'}}/>
-      <div style={{display:'flex', flexDirection: 'row', justifyContent:'center', gap: '27px'}}>
         <div className="dashboard-search-row">
           <input
             type="search"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search from Design Files"
+            placeholder="Search by title…"
             className="dashboard-search-input"
           />
-        
-        </div>
+
           <button type="button" className="dashboard-filter-button">
             <span>Filter</span>
             <img src={filterIcon} alt="Filter" />
-          
           </button>
-
-      </div>
-
+        </div>
       </div>
 
       {error && <p className="dashboard-error">{error}</p>}
