@@ -1,0 +1,36 @@
+/* plus button */
+.plusButton {
+    width: 93px;
+    height: 93px;
+    border-radius: 22.5px;
+    background: #4EBFDF;
+}
+
+/* search input field */
+.searchInput
+{
+    height: 54px;
+    width: 900px;
+    align-self: stretch;
+    border-radius: 15px;
+    background: #E3E3E3;
+
+}
+/* 
+project card
+.projectCard {
+
+} */
+
+.filterButton
+{
+    display: flex;
+    width: 183px;
+    padding: 11px 32px 11px 33px;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    
+    border-radius: 15px;
+    background: #4EBFDF;
+}
